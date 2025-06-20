@@ -26,6 +26,7 @@ message RefreshRequest {
 
 message RefreshResponse {
   string refreshToken = 1;
+  string accessToken = 2;
 }
 
 message LoginRequest {
